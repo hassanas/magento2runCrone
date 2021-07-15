@@ -1,7 +1,8 @@
 1) details on this link from where its inspired:
 https://magento.stackexchange.com/questions/39981/how-can-i-bootstrap-magento-2-in-a-test-php-script
 
-2) Copy crontab folder in pub/static
-3) Add your cron file in TestApp.php for execution
-4) Then run this in browser
+2) Copy two files test  TestApp in folder folder pub
+3) Add your file path in TestApp.php for execution this can be cron or any other file
+4) ping this files function which you want to test
+5) Then run this in browser
 
