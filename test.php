@@ -1,7 +1,7 @@
 <?php
 
 //echo "hassa";exit;
-require '../../app/bootstrap.php';
+require '../../../app/bootstrap.php';
 require __DIR__ . '/TestApp.php';
 $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
 

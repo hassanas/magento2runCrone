@@ -6,7 +6,7 @@ class TestApp extends \Magento\Framework\App\Http implements \Magento\Framework\
         //echo "Ali";exit;
         /** @var \Vendor\Module\Cron\Test $cron */
         $cron = \Magento\Framework\App\ObjectManager::getInstance()
-            ->create('Evx\SAPImport\Cron\ImportStocks');
+            ->create('Evx\SAPImport\Cron\ImportStocks'); // cron file which you want to execute
 
         $cron->execute();
         return $this->_response;
